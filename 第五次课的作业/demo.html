@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单和表格</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<caption align="center"><strong>物资登记表</strong></caption>
+	<table border="1" cellspacing="0" cellpadding="5" width="900" height="1000">
+		<tr><td width="79" bordercolor="#FFFFFF">用户名:</td>
+			<td width="309" bordercolor="blue"><input type="text" name="usename" value=""></td></tr>
+		<tr><td width="79" bordercolor="#FFFFFF">密码:</td>
+			<td width="309" bordercolor="blue"><input type="text" name="usename" value=""></td></tr>
+		<tr><td width="79" bordercolor="#FFFFFF">确认密码:</td>
+			<td width="309" bordercolor="blue"><input type="text" name="usename" value=""></td></tr>
+		<tr><td width="79" bordercolor="#FFFFFF">性别:</td>
+			<td width="309" bordercolor="blue"><input type="radio" name="sex"  value="male"/>男性
+			<input type="radio" name="sex" value="female">女性</td></tr>
+		<tr><td width="79" bordercolor="#FFFFFF">生日:</td>
+			<td width="309" bordercolor="blue">
+				<select name="gonglioryangli">
+				<checked>
+					<option>公历</option>
+				<checked>
+					<option>阳历</option>
+				</select>
+				<select neme="year">
+				<checked>
+					<option>年&nbsp;</option>
+				<checked>
+					<option>2017</option>
+					<option>2016</option>
+					<option>2015</option>
+					<option>2014</option>
+					<option>2013</option>
+					<option>2012</option>
+					<option>2011</option>
+					<option>2000</option>
+					<option>1999</option>
+					<option>1998</option>
+					</select>
+					<select name="month">
+					<option>月&nbsp</option>
+				<checked>
+					<option>1</option>
+				<checked>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					</select>
+					<select name="days">
+					<option>日&nbsp;</option>
+				<checked>
+					<option>1</option>
+				<checked>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+					<option>31</option>
+			</select>
+			</td>
+		</tr>	
+		<tr><td width="79" bordercolor="#FFFFFF">所在地:</td>
+			<td width="500" bordercolor="blue">
+				<select name="country">
+				<checked>
+					<option>中国</option>
+				<checked>
+					<option>英国</option>
+					<option>美国</option>
+					<option>法国</option>
+					<option>日本</option>
+					<option>意大利</option>
+					<option>西班牙</option>
+					<option>新西兰</option>
+				</select>
+				<select name="province">
+				<checked>
+					<option>河北</option>
+				<checked>
+					<option>山东</option>
+					<option>广西</option>
+					<option>上海</option>
+				</select>
+					<select name="location">
+				<checked>
+					<option>石家庄</option>
+				<checked>
+					<option>正定</option>
+					<option>赵县</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="79" bordercolor="#FFFFFF">验证码:</td>
+			<td width="309" bordercolor="blue"><input type="text" name="usename" value="">
+			<input type="image" src="images/yanzhengma.jpg" name="img">
+			</td>
+		</tr>
+		<tr>
+		    <td width="79" bordercolor="#FFFFFF">证件类型:</td>
+			<td width="309" bordercolor="blue">
+				<select name="card">
+				<checked>
+					<option>居民身份证</option>
+				<checked>
+					<option>华侨居住证</option>
+					<option>港澳台居住证</option>
+					<option>移民正</option>
+					<option>退伍军人证</option>
+				</select>>
+		    </td>
+		</tr>
+		<tr>
+			<td width="79" bordercolor="#FFFFFF">证件号:</td>
+			<td width="309" bordercolor="blue"><input type="text" name="usename" value=""></td>
+		</tr>
+		<tr>
+			<td width="79" bordercolor="#FFFFFF">爱好:</td>
+			<td>
+				<input type="checkbox" name="hobby"/>音乐
+				<input type="checkbox" name="hobby"/>读书
+				<input type="checkbox" name="hobby"/>跳舞
+				<input type="checkbox" name="hobby"/>下棋
+				<input type="checkbox" name="hobby"/>咖啡
+				<input type="checkbox" name="hobby"/>其他
+			</td>
+		</tr>
+		<tr>
+			<td width="79" bordercolor="#FFFFFF">说明:</td>
+			<td width="309" bordercolor="blue"><textarea rows="3" cols="20"></textarea></td>
+		</tr>
+		<tr>
+			<td width="79" bordercolor="#FFFFFF">上传头像:</td>
+			<td width="309" bordercolor="blue"><input type="file" name="ding" ></td>
+		</tr>
+		<tr>
+			<td colspan="4" bordercolor="#FFFFFF" align="center">
+			<input type="submit" name="submit" value="提交"/>
+			<input type="reset"  name="reset" value="重置"/>
+			<input type="button" value="按钮"/>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>

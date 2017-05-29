@@ -1,0 +1,26 @@
+
+.image{
+	float:left;
+	opacity:0.5;
+	width:200px;
+	height:180px;
+	border:1px solid #ccc;
+	padding:0px;
+	margin:3px;
+	padding:6px;
+	display:inline;
+}
+.desc{
+	width:200px;
+	border:0px solid #ddd;
+	font-size:16px;
+	font-family:"楷体" "宋体";
+	font-style:bolder;
+	font-color:#000;
+	text-align:center;
+}
+ a:hover 
+{border:2px solid #333;
+opacity:1;
+}
+

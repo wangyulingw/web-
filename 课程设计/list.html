@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>学科网</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+</head>
+<body>
+<!--页头部分-->
+<div class="body">
+<div class="header">
+<div class="logo">
+<img src="images/logo.gif" >
+</div>
+<div class="header_list">
+	<li class="head_list"><a href="#">新闻资讯</a></li>
+	<li class="head_list"><a href="#">名师课堂</a></li>
+	<li class="head_list"><a href="#">Web&nbsp;World</a></li>
+	<li class="head_list"><a href="#">C&nbsp;World</a></li>
+	<li class="head_list"><a href="#">最新消息</a></li>
+	<li class="head_list"><a href="#">资源下载</a></li></ul>
+	
+	<!--搜索框-->
+		<div class="nav_search">
+		<form >
+		<div class="search"><input type="text" /></div><div class="search_btn"><h4>搜索</h4></div>
+		</form>
+		</div>
+		</div>
+	<img src="images/web.png" width="600px" height="600px">
+</div>
+<!--内容部分-->
+<div class="content">
+	<div class="list_listname">
+		css属性介绍表与表单的创建
+	</div>
+	<div class="content_body">
+		<div class="content_left">
+			<table class="left_table" cellspacing="0" cellpadding="0">
+				<tr border="2px"><th colspan="3" border="1">常用样式</th></tr>
+				<tr border="1"><th>属性</th><th>表示</th><th>值</th></tr>
+				<tr><td>字体</td><td>font-family</td><td>“宋体”</td></tr>
+				<tr><td>大小</td><td>font-size</td><td>-px</td></tr>
+				<tr><td>风格</td><td>font-style</td><td>倾斜</td></tr>
+				<tr><td>加粗</td><td>font-weight</td><td>100~900</td></tr>
+				<tr><td>缩进</td><td>text-indent</td><td>px/em</td></tr>
+				<tr><td>颜色</td><td>color</td><td>#&nbsp;--</td></tr>
+				<tr><td>对齐</td><td>text-align</td><td>center…</td></tr>
+				<tr><td>修饰</td><td>-decoration</td><td>underline</td></tr>
+				<tr><td>行高</td><td>line-height</td><td>--px</td></tr>
+				<tr><td>背景</td><td>b…-color</td><td>颜色</td></tr>
+				<tr><td>展开方式</td><td>b…-repeat</td><td>平铺</td></tr>
+				<tr><td>段落</td><td>p</td><td>标签</td></tr>
+				<tr><td>标题</td><td>h1~h6</td><td>标签</td></tr>
+				<tr><td>链接</td><td>a</td><td>标签</td></tr>
+				<tr><td>强调</td><td>strong</td><td>加粗</td></tr>
+				<tr><td>倾斜</td><td>i</td><td>属性</td></tr>
+				<tr><td>容器</td><td>div</td><td>块级</td></tr>
+				<tr><td>容器</td><td>span</td><td>行内</td></tr>
+				
+				
+			</table>
+		</div>
+		<div class="content_right">
+			<div class_right_top><h2>教你如何创建表单</h2></div>
+			<div class_right_content>
+				<p>首先使用的是&lt;form&gt;&lt;/form&gt;标签，创建一个大的表单，我们可以在里面添加表单控件，实现信息的收集作用。然后就是表单控件的设计和表示方法，这里将给大家注意说明。</p>
+				<p>第一：姓名的录入，&lt;form&gt;姓名：&lt;input&nbsp;type="text"(这里是type的属性)&nbsp;name="text的名称"&gt;&lt;/form&gt;如此关于姓名的控件就完成了。和姓名类似其他的表单控件即可实现。<p>第二：我们来完成密码的设置&lt;form&gt;&lt;密码：&lt;input&nbsp;type="text"(这里是type的属性)&nbsp;name="password"/form&gt;</p><p>第三就是实现性别选择，使用的是&lt;form&gt;&lt;input&nbsp;type="radio"(这里是type的属性)&nbsp;name="sec"&gt;&lt;input&nbsp;type="radio"(这里是type的属性)&nbsp;name="sec"&gt;&lt;/form&gt;<b>值得注意的是name属性的属性值一定是相同的，如上边的都是“sex”。</b>效果图如下所示</p>
+				<div class="example">
+					<form>
+						<h1>登录窗口</h1>
+						<fieldset>
+							用户名：
+							<input type="text" name="familyname">
+							密码：
+							<input type="password" name="password">
+							</br>
+							性别:
+							男
+							<input type="radio" name="sex" checked="checked">
+							女
+							<input type="radio" name="sex">
+						</fieldset>
+					</form>
+				</div>
+				<p>和上边所讲的类似，上传文件、多项选择、……的表单控件步骤相似。不同的是type的属性值。在这里就不给大家一一展示了。</p>
+		</div>
+		</div>
+		<div class="list_bottom">
+			<ul>
+				<li><h4><a href="index.html">返回首页</a></h4></li>
+				<li><h4><a href="content.html">返回上一页</a></h4></li>
+				<li><h4><a href="http://google.com">百度一下</a></h4></li>
+				<li><h4><a href="http://baidu.com">谷歌</a></h4></li>
+			</ul>
+		</div>
+		</div>
+		</div>
+<!--页脚部分-->
+<div class="footer">
+<div class="foot">
+	<div class="footer_ul">
+	<ul>
+	<li><a href="#"><h6>联系我们</h6></a></li>
+	<li><a href="#"><h6>意见征集</h6></a></li>
+	<li><a href="#"><h6>学习反馈</h6></a></li>
+	<li><a href="#"><h6>安全保证</h6></a></li>
+	<li><a href="#"><h6>用户详解</h6></a></li>
+	<li><a href="#"><h6>网站介绍</h6></a></li>
+	</ul>
+	</div>
+	<br/>
+	<div class="footer_h">
+	<h6>冀ICP5号 京公网安备1100000000002000006号&copy; 中国互联网举报中心 举报邮箱heibeireport@heibei.edu.cn</h6>
+	</div>
+	</div>
+</div>
+</body>
+</html>
